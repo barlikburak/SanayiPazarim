@@ -5,10 +5,56 @@
                 xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
                 template="/template/template.xhtml">
 
-    <ui:define name="resources"></ui:define>
+    <ui:define name="resources">
+        <link rel="stylesheet" type="text/css" href="resources/css/homepage.css"/>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"/>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    </ui:define>
 
     <ui:define name="content" >
-        Anasayfa
+        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel" style="margin-top: -20px;">
+            <!-- Overlay -->
+            <div class="overlay"></div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#bs-carousel" data-slide-to="1"></li>
+                <li data-target="#bs-carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item slides active">
+                    <div class="slide-1"></div>
+                    <div class="hero">
+                        <hgroup>
+                            <h1>Sanayi Ürünleri Platformu</h1>        
+                            <h3>Üreticilerin buluşma noktası</h3>
+                        </hgroup>
+                    </div>
+                </div>
+                <div class="item slides">
+                    <div class="slide-2"></div>
+                    <div class="hero">        
+                        <hgroup>
+                            <h1>Zengin Ürün Çeşitliliği</h1>        
+                            <h3>Seçkin firmalar ve zengin ürün kategorileri</h3>
+                        </hgroup>       
+                    </div>
+                </div>
+                <div class="item slides">
+                    <div class="slide-3"></div>
+                    <div class="hero">        
+                        <hgroup>
+                            <h1>Firma Memnuniyet Garantisi</h1>        
+                            <h3>Hızlı, Güvenilir, Pratik. Profesyonel tedarikçi-müşteri ilişkileri</h3>
+                        </hgroup>
+                    </div>
+                </div>
+            </div> 
+        </div>
     </ui:define>
 
 </ui:composition>
