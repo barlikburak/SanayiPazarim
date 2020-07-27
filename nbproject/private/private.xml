@@ -5,12 +5,14 @@
         <group>
             <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/tumilanlar.xhtml</file>
             <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/iletisim.xhtml</file>
-            <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/WEB-INF/web.xml</file>
             <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/uyelerimiz.xhtml</file>
             <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/login.xhtml</file>
+            <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/resources/css/iletisim.css</file>
             <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/homepage.xhtml</file>
             <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/template/template.xhtml</file>
+            <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/resources/css/register.css</file>
             <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/template/include/menu.xhtml</file>
+            <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/resources/css/login.css</file>
             <file>file:/home/burak/NetBeansProjects/SanayiPazarim/web/hakkimizda.xhtml</file>
         </group>
     </open-files>
